@@ -19,12 +19,7 @@ def unique_words(file_path):
     return(unique_word_tuple)
 
 def count_the_articles(file_path):
-    """     f1= open(file_path,"r")
-    file_text = f1.read()
-    file_text= file_text.replace('\n',' ')
-    file_word_list=file_text.split(" ")
-    [file_word_list.remove('') for i in range(0,file_word_list.count(''))]
-    [file_word_list[count].strip() for count in range(0,len(file_word_list))] """
+
     file_word_list=formatting_file(file_path)
 
     article_list =["a", "the", "at", "run", "to","and","are","or","for","an","this"]
