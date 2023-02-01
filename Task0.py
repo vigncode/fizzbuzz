@@ -1,18 +1,5 @@
 for i in range(1,101):
-    '''
-    fizz = ""
-    buzz=""
-    if i%3 == 0:
-        fizz="Fizz"
-    if i%5 == 0 :
-        buzz= "Buzz"
-    
-    if fizz is not "" or buzz is not "":
-        print(fizz+buzz)
-    else:
-        print(i)
-    
-    '''
+
     a=i%3
     b=i%5
     status =i
